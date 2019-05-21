@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Edit Dream Team</title>
+    <link rel="stylesheet" href="/css/main.css">
+</head>
+
+<body>
+    <header class="main-header">
+        <nav class="main-header__nav">
+            <h2 class="main-header__logo">Sportify!</h2>
+            <ul class="main-header__item-list">
+                <li class="main-header__item"><a href="/">Home</a></li>
+                <li class="main-header__item"><a class="active" href="/edit-team">Dream Team</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <form action="./edit-team" method="POST">
+            <h2 class="form-header">Your samba dream team: </h2>
+            <div class="input-section">
+                <label for="teamName">Team Name</label>
+                <input type="text" name="teaName" />
+                <div class="input-section">
+                    <label for="playerName0">Player Name</label>
+                    <input type="text" name="playerName0" />
+                </div>
+                <div class="input-section">
+                    <label for="playerName1">Player Name</label>
+                    <input type="text" name="playerName1" />
+                </div>
+                <div class="input-section">
+                    <label for="playerName2">Player Name</label>
+                    <input type="text" name="playerName2" />
+                </div>
+                <div class="input-section">
+                    <label for="playerName3">Player Name</label>
+                    <input type="text" name="playerName3" />
+                </div>
+                <div class="input-section">
+                    <label for="playerName4">Player Name</label>
+                    <input type="text" name="playeName4" />
+                </div>
+
+                <button type="submit">Submit</button>
+        </form>
+    </main>
+</body>
+
+</html>

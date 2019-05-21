@@ -1,0 +1,27 @@
+{
+  "name": "nodejs-guide",
+  "version": "1.0.0",
+  "description": "Complete NodeJS course",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "author": "Jacob Robinson",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^1.18.9",
+    "sass": "^1.15.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.0",
+    "mongodb": "^3.1.10",
+    "mongoose": "^5.4.2",
+    "mysql2": "^1.6.4",
+    "pug": "^2.0.3",
+    "sequelize": "^4.42.0"
+  }
+}

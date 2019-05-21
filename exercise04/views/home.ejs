@@ -1,0 +1,22 @@
+<%- include('includes/head.ejs') %>
+</head>
+<body>
+    <%- include('includes/nav.ejs') %>
+    <main>
+        <h1>Welcome to Sportify</h1>
+        <p>Where sporty people do sporty things!</p>
+        <% if (team.teamName !== null) { %>
+            <div class="team">
+                <h2><%= team.name %></h2>
+                <ul>
+                    <% for (let player of team.players) { %>
+                    <li><%= player %></li>
+                    <% } %>
+                </ul>
+            </div>
+        <% } else { %>
+            <h3>Team not picked</h3>
+        <% } %>
+    </main>
+    
+<%- include('includes/end.ejs') %>
